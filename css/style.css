@@ -1,0 +1,44 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+
+body{
+    padding: 3%;
+    background-attachment: fixed;
+    background-position: center; /* top*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, lightblue,white);
+}
+
+header .banner{
+    background-image: linear-gradient( to right bottom, orange, yellow);
+    height: 20vh;
+
+}
+
+a, a:active{ /* a: active  뜻 찾아보기*/
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space;
+}
+
+nav li{
+    padding: 3%;
+    display: include-block;
+    font-size: 24px;
+}
+
+nav li:hover{
+    background-image: liner-gradient(to right,red,orange);
+    border-radius: 25%;
+}
+nav li:hover a{
+    color: whitesmoke;
+}
